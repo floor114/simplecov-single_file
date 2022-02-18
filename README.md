@@ -2,6 +2,10 @@
 
 Single file console output formatter for SimpleCov when running specs for single file.
 
+You'll see the output with coverage only if you're running test for a single file:
+
+    $ rspec spec/services/some_service_spec.rb
+
 ## Installation
 
 Add this line to your application's Gemfile:
