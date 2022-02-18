@@ -1,0 +1,19 @@
+AllCops:
+  SuggestExtensions: false
+  NewCops: enable
+  TargetRubyVersion: 2.7
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+Style/RegexpLiteral:
+  EnforcedStyle: percent_r
+Style/FormatString:
+  EnforcedStyle: percent
+
+Metrics/AbcSize:
+  Max: 35
+Metrics/MethodLength:
+  Max: 20
